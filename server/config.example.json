@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://api.deepseek.com/v1",
+  "apiKey": "sk-在这里填你的Key",
+  "model": "deepseek-chat",
+  "subject": "",
+  "temperature": 0.2,
+  "maxTokens": 1024,
+  "timeout": 25000
+}

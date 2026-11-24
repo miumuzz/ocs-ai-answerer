@@ -177,6 +177,7 @@ npm start         # 等同 node server/ocs-ai-server.mjs
 ├── server/
 │   ├── start.bat            Windows 双击启动
 │   ├── ocs-ai-server.mjs    HTTP 服务 + 配置页（零依赖）
+│   ├── config.example.json  配置示例（手动改配置时参考）
 │   └── config.json          你的配置（首次保存生成，已 gitignore）
 ├── src/
 │   ├── answerer.js          {title,options,type} → AI → OCS 答案格式
