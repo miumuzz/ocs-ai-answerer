@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log*
+*.log
+
+# 本地配置：里面有你的 API Key，绝对不要提交
+server/config.json
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

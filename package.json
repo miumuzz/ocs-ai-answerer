@@ -1,0 +1,27 @@
+{
+  "name": "ocs-ai-answerer",
+  "version": "0.1.0",
+  "description": "给 OCS 网课助手用的本地 AI 题库：自备大模型 API，不需要买题库",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/ocs-ai-server.mjs",
+    "test": "node tests/all.mjs"
+  },
+  "keywords": [
+    "ocs",
+    "chaoxing",
+    "xuexitong",
+    "ai",
+    "answerer",
+    "llm",
+    "openai"
+  ],
+  "files": [
+    "server",
+    "src"
+  ]
+}
